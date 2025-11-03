@@ -1,30 +1,29 @@
-//loops
 
-let x =0;
-while(x<=10) {console.log(x);
-    if (x ==5 || x == 6){
-        x++;
-        console.log(x);
-        continue;
-    }
 
-    x++;
-    x=x+1;
-    
+//for
+
+for (let i =0; i<5; i++){
+    console.log('Loop');
 }
 
-//for loop
-
-
-for(let mynumber = 0; mynumber<=10; mynumber++){
-    if(mynumber % 2!==0){
-    console.log(mynumber);
-}
+for (let i =5; i>0; i--){
+    console.log('Loop' +i);
 }
 
-for(let mynumber = 0; mynumber<=10; mynumber++){
-    if(mynumber % 2==0){
-    console.log(mynumber);
+//while
+
+let = 0;
+while(i<10){
+    console.log(i);
+    i++;
+
 }
+
+let i = 0;
+while(i<10){
+     i++;
+    if(i == 5) continue;
+    console.log(i);
+   
 }
 
